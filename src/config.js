@@ -1,4 +1,5 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-2",
     BUCKET: "notes-adrian-carolli"
@@ -12,5 +13,6 @@ export default {
     USER_POOL_ID: "us-east-2_wtLDu66rW",
     APP_CLIENT_ID: "1amtpnp3p0s6e02t4okioarfio",
     IDENTITY_POOL_ID: "us-east-2:1e59dacd-2fa0-42d0-960f-a66aaaf48871"
-  }
+  },
+  STRIPE_KEY: "pk_test_oa0j0Mdvs1KpUlKr4Mz2cb2H"
 };
